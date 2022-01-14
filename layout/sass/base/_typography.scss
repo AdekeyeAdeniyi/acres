@@ -1,0 +1,50 @@
+// Typography
+
+h1,.h1{
+    font-size: $h1;
+}
+
+h2,.h2{
+    font-size: $h2;
+}
+
+h3,.h3{
+    font-size: $h3;
+}
+
+h4,.h4{
+    font-size: $h4;
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3,
+h4,.h4{
+    font-family: 'Poppins';
+}
+
+h1,.h1,
+h2,.h2,
+h3,.h3{
+    font-weight: 600;
+}
+
+h4,
+.h4{
+    font-weight: 500;
+}
+
+p,
+a{
+    font-family: 'Montserrat';
+    line-height: 160%;
+}
+a{
+    font-size: $text-md;
+    font-weight: 400;
+}
+
+p{
+    font-size: $text-lg;
+    color: $gray-600;
+}

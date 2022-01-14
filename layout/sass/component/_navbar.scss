@@ -1,0 +1,19 @@
+.navbar {
+    background-color: $white;
+    height: 100px;
+
+    &-brand{
+        font-size: $h4;
+        font-weight: 500;
+    }
+
+    &-nav {
+        margin-right: 7.5rem;
+    }
+
+    .nav {
+        &-link{
+            color: $gray-400;
+        }
+    }
+}
