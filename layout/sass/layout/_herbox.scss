@@ -1,26 +1,49 @@
 .herobox {
     position: relative;
     width: 100%;
-    height: calc(100vh - 150px);
-    margin-top: 5rem;
+    height: calc(100vh - 100px);
     background-image: url('../images/hero-bg.png');
     background-repeat: no-repeat;
     background-position-x: 100%;
-    background-color: $background;
 
     &-description {
         position: absolute;
         left: 27px;
-        top: 80px;
-        width: 65%;
+        top: 90px;
+        width: 55%;
         background-color: rgba($white, $alpha: 0.5);
         backdrop-filter: blur(20px);
         border-radius: 0px 16px 16px 0px;
         padding: 6.6rem 5rem;
 
+        @include respond(tab-portrait){
+            width: 90%;
+        }
+
         & p{
             margin-top: 3rem;
             margin-bottom: 2rem;
+        }
+
+        .row{
+            @include respond(tab-portrait){
+                flex-direction: column;
+            }
+        }
+    }
+
+    &-image{
+        width: 80%;
+        margin: 0 0 0 auto;
+    }
+
+    &-badge{
+        position: absolute;
+        top: 290px;
+        right: -97px;
+
+        @include respond(tab-portrait){
+            display: none;
         }
     }
 }

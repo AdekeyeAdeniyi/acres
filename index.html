@@ -12,7 +12,7 @@
   <body>
       <header class="header">
           <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container">
+                <div class="container-fluid">
                   <a class="navbar-brand text-primary" href="#">Acres.Peace</a>
                   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                       aria-expanded="false" aria-label="Toggle navigation">
@@ -39,18 +39,22 @@
           </nav>
 
           <!-- Herobox -->
-          <div class="container">
+          <div class="container-fluid">
               <div class="herobox">
                     <div class="row">
                         <div class="col-lg-3">
                             <img src="layout/images/svg/dot-svg.svg" class="img-fluid" alt="" srcset="">
                         </div>
                     </div>
-
+                    
                     <div class="herobox-description">
                         <h1> Acres of Peace, <br /> the <span class="text-primary"> change-maker</span></h1>
                         <p> We believe that every individual can make a difference. Thus, we invite everyone to start their peacebuilding roles right from the “acres” they already occupy in society </p>
                         <button type="button" class="btn btn-md btn-primary"> Make a difference</button>
+
+                        <div class="herobox-badge">
+                            <img src="layout/images/svg/badge.svg" alt="" class="img-fluid">
+                        </div>
                     </div>
               </div>
           </div>
@@ -66,15 +70,19 @@
               </div>
               <div class="container">
                   <div class="row align-items-center">
-                      <div class="col-md-7">
+                      <div class="col-md-6">
                           <img src="layout/images/mandate.png" alt="Image" class="img-fluid" srcset="">
                       </div>
-                      <div class="col-md-5">
-                         <div class="mandate-description">
+                      <div class="col-md-6">
+                         <div class="mandate-description me-sm-0">
                              <div class="text">
                                  <h2 class="text-primary"> Organization Mandate </h2>
                                  <p> Acres of Peace convenes and implements projects and programs targeted towards empowering individuals to live a prosperous life and promoting a just and peaceful society. We envision a world where people are willing and able to live in harmony despite their differences. Thus, we strive to empower individuals and communities to build resilience against violence and intolerance towards others.  </p>
-                                 <a href=""> know more </a>
+                                 <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus me-1" viewBox="0 0 16 16">
+                                        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+                                    </svg> know more 
+                                </a>
                              </div>
                         </div>
                       </div>
@@ -90,29 +98,29 @@
           <section class="values">
               <div class="container">
                   <div class="row justify-content-between">
-                      <div class="col-md-4">
+                      <div class="col-lg-4">
                         <h2 class="text-primary"> Our Values </h2>
                         <p class="my-5"> Adipiscing sed tempus suscipit nibh lorem est vestibulum mauris. Suspendisse placerat magna. </p>
                         <img src="layout/images/values.png" class="img-fluid" alt="" srcset="">
                       </div>
-                      <div class="col-md-7">
-                          <div class="row">
-                              <div class="col-md-6">
-                                  <div class="values-card">
-                                      <img src="layout/images/svg/A.svg" class="img-fluid" alt="" srcset="">
-                                      <p class="text"> Adovacy </p>
-                                      <p class="description"> We aim to influence individuals, organizations, and governments towards decisions that promote a peaceful and just society. </p>
-                                  </div>
-                              </div>
-                              <div class="col-md-6">
+                      <div class="col-lg-7 mt-5  mt-lg-0">
+                        <div class="row mb-4 gy-5 gy-lg-0">
+                            <div class="col-md-6">
                                 <div class="values-card">
-                                    <img src="layout/images/svg/B.svg" class="img-fluid" alt="" srcset="">
-                                    <p class="text"> Communication </p>
-                                    <p class="description"> We understand that inadequate understanding of the position of others can lead to tensions and violence. Hence we promote effective communication across divides to foster interaction, clear misconceptions, and build bridges towards harmonious relationships. </p>
+                                    <img src="layout/images/svg/A.svg" class="img-fluid" alt="" srcset="">
+                                    <p class="text"> Adovacy </p>
+                                    <p class="description"> We aim to influence individuals, organizations, and governments towards decisions that promote a peaceful and just society. </p>
                                 </div>
                             </div>
+                            <div class="col-md-6">
+                            <div class="values-card">
+                                <img src="layout/images/svg/B.svg" class="img-fluid" alt="" srcset="">
+                                <p class="text"> Communication </p>
+                                <p class="description"> We understand that inadequate understanding of the position of others can lead to tensions and violence. Hence we promote effective communication across divides to foster interaction, clear misconceptions, and build bridges towards harmonious relationships. </p>
+                            </div>
                         </div>
-                        <div class="row">
+                        </div>
+                        <div class="row mb-4 gy-5 gy-lg-0">
                             <div class="col-md-6">
                                 <div class="values-card">
                                     <img src="layout/images/svg/C.svg" class="img-fluid" alt="" srcset="">
@@ -128,7 +136,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row gy-5 lg-0">
                             <div class="col-md-6">
                                 <div class="values-card">
                                     <img src="layout/images/svg/E.svg" class="img-fluid" alt="" srcset="">
@@ -145,7 +153,7 @@
           </section>
           <section class="purpose">
               <div class="container">
-                  <div class="row">
+                  <div class="row gy-5 gy-md-0">
                       <div class="col-md-6">
                           <div class="purpose-card">
                               <h3> Our Mission </h3>
@@ -161,6 +169,193 @@
                   </div>
               </div>
           </section>
+          <section class="programme">
+              <div class="container">
+                  <h2 class="text-primary text-center"> Our Programmes </h2>
+                  <p class="programme-subtext"> Acres of Peace convenes and implements projects and programs targeted towards empowering individuals to live a prosperous life and promoting a just and peaceful society. We envision a world where people are willing and able to live in harmony despite their differences. Thus, we strive to empower individuals and communities to build resilience against violence and intolerance towards others. </p>
+                  <div class="programme-gallery">
+                      <div class="row">
+                          <div class="col-sm-6 col-lg-3">
+                              <div class="programme-gallery--card">
+                                  <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                  <div class="programme-gallery--details">
+                                      <div class="text">
+                                          <h4> Program Title </h4>
+                                          <p> 22nd Feb, 2022 </p>
+                                      </div>
+
+                                      <button class="btn btn-xs text-white" type="button"> Book </button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-3">
+                            <div class="programme-gallery--card">
+                                <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                <div class="programme-gallery--details">
+                                    <div class="text">
+                                        <h4> Program Title </h4>
+                                        <p> 22nd Feb, 2022 </p>
+                                    </div>
+
+                                    <button class="btn btn-xs text-white" type="button"> Book </button>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-3">
+                            <div class="programme-gallery--card">
+                                <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                <div class="programme-gallery--details">
+                                    <div class="text">
+                                        <h4> Program Title </h4>
+                                        <p> 22nd Feb, 2022 </p>
+                                    </div>
+
+                                    <button class="btn btn-xs text-white" type="button"> Book </button>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6 col-lg-3">
+                            <div class="programme-gallery--card">
+                                <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                <div class="programme-gallery--details">
+                                    <div class="text">
+                                        <h4> Program Title </h4>
+                                        <p> 22nd Feb, 2022 </p>
+                                    </div>
+
+                                    <button class="btn btn-xs text-white" type="button"> Book </button>
+                                </div>
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <section class="areas">
+              <div class="container">
+                  <div class="row justify-content-between align-items-center">
+                      <div class="col-md-3">
+                          <p class="areas-text text-primary"> Thematic Areas</p>
+                      </div>
+                      <div class="col-md-7">
+                          <img src="layout/images/svg/arera-frame.svg" alt="" class="img-fluid">
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <section class="gallery">
+              <div class="container">
+                  <h2 class="text-primary"> Gallery </h2>
+                  <p class="gallery-subtext mt-3 mb-5"> In massa nascetur ante in neque interdum sit sem nibh. Quam vel eu tempor praesent et sed hendrerit etiam. Aliquam id purus mattis facilisis magna egestas.  </p>
+
+                  <div class="gallery-images">
+                      <div class="row g-0">
+                          <div class="col-6 col-md-3">
+                              <img src="layout/images/gallery-1.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="layout/images/gallery-2.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="layout/images/gallery-3.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="layout/images/gallery-4.jpg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                      <div class="row g-0">
+                          <div class="col-6 col-md-3">
+                              <img src="layout/images/gallery-5.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="layout/images/gallery-6.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="layout/images/gallery-7.jpg" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-6 col-md-3">
+                            <img src="layout/images/gallery-8.jpg" alt="" class="img-fluid">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
+          <section class="founder">
+              <div class="container">
+                  <h2 class="text-primary text-center"> Founders </h2>
+                  <p class="founder-subtext mt-2 text-center"> In massa nascetur ante in neque interdum sit sem nibh. Quam vel eu tempor praesent et sed hendrerit etiam. Aliquam id purus mattis facilisis magna egestas.  </p>
+
+                  <div class="founder-images">
+                      <div class="container">
+                          <div class="row justify-content-center gy-5 gy-sm-0">
+                              <div class="col-sm-6 col-md-4">
+                                  <div class="founder-images--card">
+                                        <img src="layout/images/avatar-1.jpg" alt="" class="img-fluid w-100">
+                                        <div class="detail">
+                                            <h4 class="text-primary text-center"> Bello Lateef Adekunle </h4>
+                                            <p class="text-center"> Founder,  Acres of Peace </p>
+                                        </div>
+                                  </div>
+                              </div>
+                              <div class="col-sm-6 col-md-4">
+                                <div class="founder-images--card">
+                                    <img src="layout/images/avatar-2.jpg" alt="" class="img-fluid w-100">
+                                    <div class="detail">
+                                        <h4 class="text-primary text-center"> Haleemah Oladamade Ahmad </h4>
+                                        <p class="text-center"> Founder,  Acres of Peace </p>
+                                    </div>
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="donate">
+                      <div class="row justify-content-between">
+                          <div class="col-md-8 col-lg-7">
+                              <h2 class="text-white"> Contribute towards growth </h2>
+                              <p class="text-white">Pharetra, in quis in mollis. Tellus amet vitae nibh suspendisse ut sem integer nisl. Aliquet et tincidunt in dolor diam a, parturient tincidunt ullamcorper. Urna, amet hendrerit volutpat arcu ultrices nulla turpis ullamcorper vel. Blandit sollicitudin dignissim nec arcu sed eu, sit eleifend.</p>
+                          </div>
+                          <div class="col-md-4 col-lg-3">
+                              <div class="mb-3">
+                                <label for="select" class="form-label w-100">
+                                    <select class="form-control" name="select" id="select">
+                                    <option>$900</option>
+                                    <option>$750</option>
+                                    <option>$600</option>
+                                    </select>
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </label>
+                              </div>
+                                <button type="button" name="" id="" class="btn btn-lg btn-primary">Donate (Go Fund ME)</button>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </section>
       </main>
+      <footer class="footer">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a class="nav-link" href="#">About Us <span class="visually-hidden">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Mandate</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Values</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Programme</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Gallery</a>
+              </li>
+          </ul>
+
+          <p class="footer-text"> 2021 All right Reserved (C) Acres of peace </p>
+      </footer>
   </body>
 </html>

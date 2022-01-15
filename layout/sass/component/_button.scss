@@ -7,6 +7,12 @@
     font-size: $text-md;
     border-radius: 4px;
 
+    &.btn-xs{
+        width: 51px;
+        height: 37px;
+        padding: 8px;
+        background: #2CC396;
+    }
 
     &.btn-sm{
         width: 110px;
@@ -18,5 +24,10 @@
         width: 172px;
         height: 56px;
         padding: 10px 24px 10px 24px;
+    }
+
+    &.btn-lg{
+        height: 50px;
+        padding: 10px 24px;
     }
 }
