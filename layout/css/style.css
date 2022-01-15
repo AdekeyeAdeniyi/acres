@@ -7924,7 +7924,8 @@ p {
     padding: 6.6rem 5rem; }
     @media (max-width: 56.25em) {
       .herobox-description {
-        width: 90%; } }
+        width: 90%;
+        padding: 6.6rem 2rem; } }
     .herobox-description p {
       margin-top: 3rem;
       margin-bottom: 2rem; }
