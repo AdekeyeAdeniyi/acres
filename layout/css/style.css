@@ -7877,6 +7877,8 @@ p {
     margin-right: 7.5rem; }
   .navbar .nav-link {
     color: #727A8B; }
+  .navbar .nav-item:not(:last-child) {
+    margin-right: 3rem; }
 
 .btn {
   display: flex;
@@ -7903,6 +7905,41 @@ p {
     height: 50px;
     padding: 10px 24px; }
 
+.modal-header {
+  border: none; }
+
+.modal-content {
+  padding: 32px 34px;
+  border-radius: 16px; }
+  .modal-content input {
+    font-size: 1.4rem;
+    font-weight: 500; }
+
+.modal-body .image {
+  width: 159px;
+  height: 174px;
+  margin: 0 auto; }
+  .modal-body .image img {
+    border-radius: 16px;
+    width: 100%;
+    object-fit: cover;
+    height: 100%; }
+
+.modal-body .details h4, .modal-body .details .h4 {
+  color: #14213D;
+  text-align: center;
+  margin: 13px 0 5px 0; }
+
+.modal-body .details .date {
+  font-weight: 400;
+  text-align: center;
+  color: #727A8B; }
+
+.modal-body .details .info {
+  font-size: 1.4rem;
+  color: #434D64;
+  font-weight: 400; }
+
 .header {
   height: 100vh; }
 
@@ -7917,7 +7954,7 @@ p {
     position: absolute;
     left: 27px;
     top: 90px;
-    width: 55%;
+    width: 65%;
     background-color: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(20px);
     border-radius: 0px 16px 16px 0px;
@@ -7987,7 +8024,8 @@ section {
       color: #2CC396;
       margin-top: 1.5rem; }
     .values-card .description {
-      font-size: 1.4rem; }
+      font-size: 1.4rem;
+      color: #355473; }
 
 .purpose {
   background-image: url("../images/purpose.png");
@@ -8048,6 +8086,10 @@ section {
       height: 100%;
       object-fit: cover;
       border-radius: 16px; }
+    .programme-gallery--card .btn {
+      position: absolute;
+      top: 18px;
+      right: 18px; }
   .programme-gallery--details {
     position: absolute;
     bottom: -30px;
@@ -8117,9 +8159,15 @@ section {
       backdrop-filter: blur(20px);
       border-radius: 8px;
       padding: 8px 0 16px 0;
-      width: 90%; }
+      width: 90%;
+      text-align: center; }
       .founder-images--card .detail p {
         font-size: 1.4rem; }
+      .founder-images--card .detail a {
+        text-decoration: none;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: #2CC396; }
   .founder .donate {
     margin-top: 9rem;
     padding: 40px;
@@ -8160,7 +8208,7 @@ section {
   padding: 8rem 0; }
   .footer .navbar-nav {
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 3rem;
     justify-content: center;
     margin: 0 auto;
     margin-bottom: 3.5rem; }
@@ -8169,3 +8217,15 @@ section {
   .footer-text {
     text-align: center;
     color: #14213D; }
+
+.return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  .return-to-top svg {
+    fill: #2CC396; }

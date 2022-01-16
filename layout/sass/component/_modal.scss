@@ -1,0 +1,50 @@
+.modal {
+    &-header{
+        border: none;
+    }
+
+    &-content{
+        padding: 32px 34px;
+        border-radius: 16px;
+
+        input{
+            font-size: $text-md;
+            font-weight: 500;
+        }
+    }
+
+    &-body{
+        .image{
+            width: 159px;
+            height: 174px;
+            margin:0 auto;
+            
+            img{
+                border-radius: 16px;
+                width: 100%;
+                object-fit: cover;
+                height: 100%;
+            }
+        }
+
+        .details{
+            h4{
+                color: $gray-600;
+                text-align: center;
+                margin: 13px 0 5px 0;
+            }
+
+            .date {
+                font-weight: 400;
+                text-align: center;
+                color: $gray-400;
+            }
+
+            .info {
+                font-size: $text-md;
+                color: $gray-500;
+                font-weight: 400;;
+            }
+        }
+    }
+}

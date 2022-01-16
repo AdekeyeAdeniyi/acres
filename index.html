@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>AcresofPeace</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="layout/images/svg/favicon.svg" type="image/x-icon">
 
     <!-- style link -->
     <link rel="stylesheet" href="layout/css/style.css" stylesheet="text/css">
@@ -12,8 +13,8 @@
   <body>
       <header class="header">
           <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand text-primary" href="#">Acres.Peace</a>
+                <div class="container">
+                  <a class="navbar-brand text-primary" href="index.html">Acres.Peace</a>
                   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
                       aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
@@ -21,29 +22,29 @@
                   <div class="collapse navbar-collapse" id="collapsibleNavId">
                       <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
                           <li class="nav-item active">
-                              <a class="nav-link" href="#">About Us <span class="visually-hidden">(current)</span></a>
+                              <a class="nav-link" href="#about">About Us <span class="visually-hidden">(current)</span></a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Values</a>
+                              <a class="nav-link" href="#values">Values</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Programs</a>
+                              <a class="nav-link" href="#programme">Programs</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Gallery</a>
+                              <a class="nav-link" href="#gallery">Gallery</a>
                           </li>
                       </ul>
-                    <button class="btn btn-sm btn-success my-2 my-sm-0" type="submit">Support Us</button>
+                    <a href="#donate" class="btn btn-sm btn-success my-2 my-sm-0" type="button">Support Us</a>
                   </div>
             </div>
           </nav>
 
           <!-- Herobox -->
-          <div class="container-fluid h-100">
-              <div class="herobox">
+          <div class="container h-100">
+              <div id="about" class="herobox">
                     <div class="row">
                         <div class="col-lg-3">
-                            <img src="layout/images/svg/dot-svg.svg" class="img-fluid" alt="" srcset="">
+                            <img src="layout/images/svg/dot-svg.svg" class="img-fluid" alt="image" srcset="">
                         </div>
                     </div>
                     
@@ -53,18 +54,18 @@
                         <button type="button" class="btn btn-md btn-primary"> Make a difference</button>
 
                         <div class="herobox-badge">
-                            <img src="layout/images/svg/badge.svg" alt="" class="img-fluid">
+                            <img src="layout/images/svg/badge.svg" alt="image" class="img-fluid">
                         </div>
                     </div>
               </div>
           </div>
       </header>
       <main class="main">
-          <section class="mandate">
+          <section id="mandate" class="mandate">
               <div class="container-fluid">
                   <div class="row">
                       <div class="col-lg-3">
-                          <img src="layout/images/svg/dot-svg.svg" class="img-fluid mandate-svg" alt="" srcset="">
+                          <img src="layout/images/svg/dot-svg.svg" class="img-fluid mandate-svg" alt="">
                       </div>
                   </div>
               </div>
@@ -95,26 +96,26 @@
                   <p class="motto-text"> Peace, Justice & Development </p>
               </div>
           </div>
-          <section class="values">
+          <section id="values" class="values">
               <div class="container">
                   <div class="row justify-content-between">
                       <div class="col-lg-4">
                         <h2 class="text-primary"> Our Values </h2>
-                        <p class="my-5"> Adipiscing sed tempus suscipit nibh lorem est vestibulum mauris. Suspendisse placerat magna. </p>
-                        <img src="layout/images/values.png" class="img-fluid" alt="" srcset="">
+                        <p class="my-5 text-primary"> Adipiscing sed tempus suscipit nibh lorem est vestibulum mauris. Suspendisse placerat magna. </p>
+                        <img src="layout/images/values.png" class="img-fluid" alt="image">
                       </div>
                       <div class="col-lg-7 mt-5  mt-lg-0">
                         <div class="row mb-4 gy-5 gy-lg-0">
                             <div class="col-md-6">
                                 <div class="values-card">
-                                    <img src="layout/images/svg/A.svg" class="img-fluid" alt="" srcset="">
+                                    <img src="layout/images/svg/A.svg" class="img-fluid" alt="image" srcset="">
                                     <p class="text"> Adovacy </p>
                                     <p class="description"> We aim to influence individuals, organizations, and governments towards decisions that promote a peaceful and just society. </p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                             <div class="values-card">
-                                <img src="layout/images/svg/B.svg" class="img-fluid" alt="" srcset="">
+                                <img src="layout/images/svg/B.svg" class="img-fluid" alt="image" srcset="">
                                 <p class="text"> Communication </p>
                                 <p class="description"> We understand that inadequate understanding of the position of others can lead to tensions and violence. Hence we promote effective communication across divides to foster interaction, clear misconceptions, and build bridges towards harmonious relationships. </p>
                             </div>
@@ -169,7 +170,7 @@
                   </div>
               </div>
           </section>
-          <section class="programme">
+          <section id="programme" class="programme">
               <div class="container">
                   <h2 class="text-primary text-center"> Our Programmes </h2>
                   <p class="programme-subtext"> Acres of Peace convenes and implements projects and programs targeted towards empowering individuals to live a prosperous life and promoting a just and peaceful society. We envision a world where people are willing and able to live in harmony despite their differences. Thus, we strive to empower individuals and communities to build resilience against violence and intolerance towards others. </p>
@@ -180,51 +181,48 @@
                                   <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
                                   <div class="programme-gallery--details">
                                       <div class="text">
-                                          <h4> Program Title </h4>
+                                          <h4> Curbing Electoral Violence </h4>
                                           <p> 22nd Feb, 2022 </p>
                                       </div>
-
-                                      <button class="btn btn-xs text-white" type="button"> Book </button>
-                                  </div>
+                                    </div>
+                                    <button class="btn btn-xs text-white" type="button" data-bs-toggle="modal" data-bs-target="#ProgrammePopup"> Book </button>
                               </div>
                           </div>
                           <div class="col-sm-6 col-lg-3">
                             <div class="programme-gallery--card">
-                                <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                <img src="layout/images/programme-2.jpg" alt="programme" class="img-fluid h-100">
                                 <div class="programme-gallery--details">
                                     <div class="text">
-                                        <h4> Program Title </h4>
+                                        <h4> Interfaith Peace Symposiums </h4>
                                         <p> 22nd Feb, 2022 </p>
                                     </div>
-
-                                    <button class="btn btn-xs text-white" type="button"> Book </button>
                                 </div>
+                                <button class="btn btn-xs text-white" type="button" data-bs-toggle="modal" data-bs-target="#ProgrammePopup"> Book </button>
                             </div>
                           </div>
                           <div class="col-sm-6 col-lg-3">
                             <div class="programme-gallery--card">
-                                <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                <img src="layout/images/programme-3.jpg" alt="programme" class="img-fluid h-100">
                                 <div class="programme-gallery--details">
                                     <div class="text">
-                                        <h4> Program Title </h4>
+                                        <h4> Religious Actors Peace Awareness Program  </h4>
                                         <p> 22nd Feb, 2022 </p>
                                     </div>
-
-                                    <button class="btn btn-xs text-white" type="button"> Book </button>
                                 </div>
+                                <button class="btn btn-xs text-white" type="button" data-bs-toggle="modal" data-bs-target="#ProgrammePopup"> Book </button>
                             </div>
                           </div>
                           <div class="col-sm-6 col-lg-3">
                             <div class="programme-gallery--card">
-                                <img src="layout/images/programme-1.jpg" alt="" class="img-fluid h-100">
+                                <img src="layout/images/programme-4.jpg" alt="programme" class="img-fluid h-100">
                                 <div class="programme-gallery--details">
                                     <div class="text">
-                                        <h4> Program Title </h4>
+                                        <h4> Educators Peace Awareness Program </h4>
                                         <p> 22nd Feb, 2022 </p>
                                     </div>
-
-                                    <button class="btn btn-xs text-white" type="button"> Book </button>
                                 </div>
+
+                                <button class="btn btn-xs text-white" type="button" data-bs-toggle="modal" data-bs-target="#ProgrammePopup"> Book </button>
                             </div>
                           </div>
                       </div>
@@ -238,12 +236,12 @@
                           <p class="areas-text text-primary"> Thematic Areas</p>
                       </div>
                       <div class="col-md-7">
-                          <img src="layout/images/svg/arera-frame.svg" alt="" class="img-fluid">
+                          <img src="layout/images/svg/arera-frame.svg" alt="area" class="img-fluid">
                       </div>
                   </div>
               </div>
           </section>
-          <section class="gallery">
+          <section id="gallery" class="gallery">
               <div class="container">
                   <h2 class="text-primary"> Gallery </h2>
                   <p class="gallery-subtext mt-3 mb-5"> In massa nascetur ante in neque interdum sit sem nibh. Quam vel eu tempor praesent et sed hendrerit etiam. Aliquam id purus mattis facilisis magna egestas.  </p>
@@ -251,30 +249,30 @@
                   <div class="gallery-images">
                       <div class="row g-0">
                           <div class="col-6 col-md-3">
-                              <img src="layout/images/gallery-1.jpg" alt="" class="img-fluid">
+                              <img src="layout/images/gallery-1.jpg" alt="gallery" class="img-fluid">
                           </div>
                           <div class="col-6 col-md-3">
-                            <img src="layout/images/gallery-2.jpg" alt="" class="img-fluid">
+                            <img src="layout/images/gallery-2.jpg" alt="gallery" class="img-fluid">
                           </div>
                           <div class="col-6 col-md-3">
-                            <img src="layout/images/gallery-3.jpg" alt="" class="img-fluid">
+                            <img src="layout/images/gallery-3.jpg" alt="gallery" class="img-fluid">
                           </div>
                           <div class="col-6 col-md-3">
-                            <img src="layout/images/gallery-4.jpg" alt="" class="img-fluid">
+                            <img src="layout/images/gallery-4.jpg" alt="gallery" class="img-fluid">
                           </div>
                       </div>
                       <div class="row g-0">
                           <div class="col-6 col-md-3">
-                              <img src="layout/images/gallery-5.jpg" alt="" class="img-fluid">
+                              <img src="layout/images/gallery-5.jpg" alt="gallery" class="img-fluid">
                           </div>
                           <div class="col-6 col-md-3">
-                            <img src="layout/images/gallery-6.jpg" alt="" class="img-fluid">
+                            <img src="layout/images/gallery-6.jpg" alt="gallery" class="img-fluid">
                           </div>
                           <div class="col-6 col-md-3">
-                            <img src="layout/images/gallery-7.jpg" alt="" class="img-fluid">
+                            <img src="layout/images/gallery-7.jpg" alt="gallery" class="img-fluid">
                           </div>
                           <div class="col-6 col-md-3">
-                            <img src="layout/images/gallery-8.jpg" alt="" class="img-fluid">
+                            <img src="layout/images/gallery-8.jpg" alt="gallery" class="img-fluid">
                           </div>
                       </div>
                   </div>
@@ -290,26 +288,28 @@
                           <div class="row justify-content-center gy-5 gy-sm-0">
                               <div class="col-sm-6 col-md-4">
                                   <div class="founder-images--card">
-                                        <img src="layout/images/avatar-1.jpeg" alt="" class="img-fluid w-100">
+                                        <img src="layout/images/avatar-1.png" alt="image" class="img-fluid w-100">
                                         <div class="detail">
-                                            <h4 class="text-primary text-center"> Bello Lateef Adekunle </h4>
-                                            <p class="text-center"> Founder,  Acres of Peace </p>
+                                            <h4 class="text-primary"> Haleemah Oladamade Ahmad </h4>
+                                            <p> Founder,  Acres of Peace </p>
+                                            <a href="#" data-bs-toggle="modal" data-bs-target="#FounderPopup"> view more </a>
                                         </div>
                                   </div>
                               </div>
                               <div class="col-sm-6 col-md-4">
                                 <div class="founder-images--card">
-                                    <img src="layout/images/avatar-2.jpg" alt="" class="img-fluid w-100">
+                                    <img src="layout/images/avatar-2.png" alt="image" class="img-fluid w-100">
                                     <div class="detail">
-                                        <h4 class="text-primary text-center"> Haleemah Oladamade Ahmad </h4>
-                                        <p class="text-center"> Founder,  Acres of Peace </p>
+                                        <h4 class="text-primary"> Bello Lateef Adekunle </h4>
+                                        <p> Founder,  Acres of Peace </p>
+                                        <a href="#" class="mx-auto"> view more </a>
                                     </div>
                                 </div>
                               </div>
                           </div>
                       </div>
                   </div>
-                  <div class="donate">
+                  <div id="donate" class="donate">
                       <div class="row justify-content-between">
                           <div class="col-md-8 col-lg-7">
                               <h2 class="text-white"> Contribute towards growth </h2>
@@ -339,23 +339,92 @@
       <footer class="footer">
           <ul class="navbar-nav">
               <li class="nav-item active">
-                  <a class="nav-link" href="#">About Us <span class="visually-hidden">(current)</span></a>
+                  <a class="nav-link" href="#about">About Us <span class="visually-hidden">(current)</span></a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Mandate</a>
+                  <a class="nav-link" href="#mandate">Mandate</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Values</a>
+                  <a class="nav-link" href="#values">Values</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Programme</a>
+                  <a class="nav-link" href="#programme">Programme</a>
               </li>
               <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
+                  <a class="nav-link" href="#gallery">Gallery</a>
               </li>
           </ul>
 
           <p class="footer-text"> 2021 All right Reserved (C) Acres of peace </p>
       </footer>
+      <!-- Programme Modal -->
+      <div class="modal" id="ProgrammePopup" tabindex="-1" aria-labelledby="ProgrammePopup" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="close ms-auto">
+                <input type="button" value="Close" class="border-0 text-primary" data-bs-dismiss="modal" aria-label="Close">
+            </div>
+            <div class="modal-body">
+              <div class="image">
+                  <img src="layout/images/programme-1.JPG" alt="iamge" class="img-fluid">
+              </div>
+              <div class="details">
+                  <h4> Curbing Electoral Violence </h4>
+                  <p class="date"> 22nd Feb, 2022 </p>
+                  <p class="info"> In many developing countries, elections are usually fraught with violence, before during and after the elections. Such violent acts are often perpetrated by the youth for various reasons. Prior to the General Elections in Nigeria, we organize Youth Colloquiums to address this burning issue and proffer realistic and practical measures to serve as alternatives to violence when things go “wrong” before, during and after elections. This includes having early warning systems for impending violence, such as a sudden influx of thugs into a polling area; and having early response systems such as quickly calling the distress lines of security agencies in such situations before things escalate.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- founder Modal -->
+      <div class="modal" id="FounderPopup" tabindex="-1" aria-labelledby="FounderPopup" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+          <div class="modal-content">
+            <div class="close ms-auto">
+                <input type="button" value="Close" class="border-0 text-primary" data-bs-dismiss="modal" aria-label="Close">
+            </div>
+            <div class="modal-body">
+              <div class="image">
+                  <img src="layout/images/avatar.jpg" alt="Avatar" class="img-fluid">
+              </div>
+              <div class="details">
+                  <h4> Haleemah Oladamade Ahmad </h4>
+                  <p class="date"> Founder,  Acres of Peace </p>
+                <p class="info"> Haleemah Oladamade Ahmad, a social development professional with over 10 years of experience working and volunteering in the development sector, is the CEO and Co-Founder of Acres of Peace, a non-profit dedicated to empowering individuals and communities to live a prosperous life and promoting a just and peaceful society. Passionate about personal and community development, peacebuilding, gender justice and upholding the rights of women as well as integral human development, Haleemah has acquired extensive experience designing, planning, implementing, monitoring, and evaluating peacebuilding and human capacity building programs for projects funded by the US government (US Embassy, Nigeria); the EU delegation in Nigeria; UNFPA, MacArthur Foundation, Tony Blair Institute for Global Change, the Carter Center, amongst others. <br />
+                Haleemah is also a Senior Research Associate and Facilitator with the Da’wah Institute (DIN), Islamic Education Trust, Nigeria; working at the intersection of building resilience against violent extremism, promoting inter-religious harmony as well as gender justice and human rights. Over the last seven years, she and her team at DIN have researched and analyzed over 200 religious arguments used in recruitment into violent extremist groups, developed alternative and counter-narratives to these arguments, and have trained over 800 Imams, women religious leaders, and youth leaders in using these counter-narratives to strengthen resilience against violent extremism in their communities. This includes the publishing of the book ‘Muslim Relations with Christians, Jews and Others’, in 2018, which responds to 50 faith-based arguments raised by some Muslims to justify aggression against people of other faiths. <br />
+                Haleemah is a facilitator for the Development Initiative of West Africa (DIWA) where she has led several training sessions for male and female leaders of various organisations on gender justice and women’s rights in Islam; and facilitated workshops for Muslim and Christian leaders to facilitate dialogue and engagement, training of over 300 religious actors in this capacity. She was a UNICEF peer educator on adolescence and reproductive health as a teenager and later served as Team Lead for Al-Ansor Foundation, a non-profit that provides humanitarian aid to indigent individuals. She then co-founded Youths for Youth Development (YFYD), a local nonprofit concerned about capacity building for youths to achieve their maximum potentials. <br />
+                Haleemah has held leadership positions in several grassroots organizations and has consulted for both local and international development organizations. She has attended several local and international conferences and was a speaker at the Human Rights Defenders Forum (HRDF) organized by the Carter Center in Atlanta, USA, in October 2019, as well as the Insights Forum on Preventing Violent Extremism (PVE) and Promoting Inter-religious Engagement in Nairobi, Kenya in November 2019. She is a Fellow of the Cardinal Onaiyekan Foundation for Peace (COFP) and a recipient of the Rick Love Youing Innovators Award. Haleemah holds a B.Sc in Computer Science from the University of Ilorin, Nigeria; and is currently pursuing a Master of Global Affairs at the University of Notre Dame, USA, specializing in International Peace Studies at the Kroc Institute for International Peace Studies.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Back to Top -->
+        <a href="javascript:" id="return-to-top" class="return-to-top">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16"><path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0z"/>
+            </svg>
+        </a>
   </body>
+  <!-- script -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+    // Back to Top
+    $(window).scroll(function() {
+    if ($(this).scrollTop() >= 50) {        
+        $('#return-to-top').fadeIn(200);   
+    } else {
+        $('#return-to-top').fadeOut(200);   
+    }
+    });
+    $('#return-to-top').click(function() {     
+        $('body,html').animate({
+            scrollTop : 0                       
+        }, 500);
+    });
+</script>
 </html>

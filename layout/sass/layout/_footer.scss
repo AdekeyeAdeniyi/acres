@@ -3,7 +3,7 @@
 
     .navbar-nav{
         flex-direction: row;
-        gap: 2.5rem;
+        gap: 3rem;
         justify-content: center;
         margin: 0 auto;
         margin-bottom: 3.5rem;
@@ -16,5 +16,20 @@
     &-text{
         text-align: center;
         color: $gray-600;
+    }
+}
+
+.return-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+
+    svg{
+        fill: $elevin;
     }
 }

@@ -14,5 +14,9 @@
         &-link{
             color: $gray-400;
         }
+
+        &-item:not(:last-child){
+            margin-right: 3rem
+        }
     }
 }
